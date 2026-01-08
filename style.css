@@ -26,6 +26,7 @@ ol {
 }
 .container {
   max-width: 1400px;
+  margin: auto;
 }
 /* banner section start */
 #banner {
@@ -107,3 +108,41 @@ font-size: 40px;
 color: var(--dark-01);
 }
 /* my-failures section  */
+/* my-plans section  */
+#my-plans{
+  margin-top: 130px;
+}
+#my-plans h2{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+color: var(--dark-01);
+text-align: center;
+}
+.all-plans-card{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   
+}
+.plans-card .card-img{
+  display: flex;
+  justify-content: center;
+}
+.plans-card h3{
+  font-family: var(--font-family);
+font-weight: 700;
+text-align: center;
+padding: 15px 0;
+
+font-size: 30px;
+color: var(--dark-01);
+}
+.plans-card p{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 25px;
+text-align: center;
+color: var(--dark-03);
+}
+/* my-plans section  */
