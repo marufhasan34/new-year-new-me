@@ -77,3 +77,33 @@ ol {
   justify-content: flex-end;
 }
 /* banner section end */
+/* my-failures section  */
+#my-failures{
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+}
+#my-failures img{
+  max-width:569px;
+  height: 723px;
+}
+.my-failures-content{
+  max-width:416px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 200px;
+}
+.my-failures-content ul li i{
+  color: #16D887;
+  padding-right: 10px;
+}
+.my-failures-content h2{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+color: var(--dark-01);
+}
+/* my-failures section  */
