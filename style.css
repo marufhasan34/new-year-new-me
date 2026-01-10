@@ -177,3 +177,57 @@ ol {
   border-radius: 5px;
 }
 /* mindset section end */
+/* footer section start */
+footer {
+  background: var(--dark-01);
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-content h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.footer-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #fff;
+  margin: 10px 0;
+}
+.footer-content img {
+  margin-left: 10px;
+}
+.footer-links h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+}
+.footer-links input {
+  width: 325px;
+  height: 64px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--dark-07);
+  border-radius: 5px;
+  background-color: var(--dark-01);
+  border: 1px solid gray;
+  margin: 31px 0 16px;
+}
+
+.footer-links button {
+  width: 170px;
+  height: 64px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border: none;
+  border-radius: 10px;
+}
+/* footer section end */
