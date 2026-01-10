@@ -69,7 +69,7 @@ ol {
   font-weight: 600;
   font-size: 20px;
   color: #fff;
-  background-color: #F15B22;
+  background-color: #f15b22;
   border: none;
   border-radius: 5px;
 }
@@ -79,70 +79,101 @@ ol {
 }
 /* banner section end */
 /* my-failures section  */
-#my-failures{
+#my-failures {
   margin-top: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 87px;
 }
-#my-failures img{
-  max-width:569px;
+#my-failures img {
+  max-width: 569px;
   height: 723px;
 }
-.my-failures-content{
-  max-width:416px;
+.my-failures-content {
+  max-width: 416px;
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 200px;
 }
-.my-failures-content ul li i{
-  color: #16D887;
+.my-failures-content ul li i {
+  color: #16d887;
   padding-right: 10px;
 }
-.my-failures-content h2{
+.my-failures-content h2 {
   font-family: var(--font-family);
-font-weight: 700;
-font-size: 40px;
-color: var(--dark-01);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-01);
 }
 /* my-failures section  */
 /* my-plans section  */
-#my-plans{
+#my-plans {
   margin-top: 130px;
 }
-#my-plans h2{
+#my-plans h2 {
   font-family: var(--font-family);
-font-weight: 700;
-font-size: 40px;
-color: var(--dark-01);
-text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-01);
+  text-align: center;
 }
-.all-plans-card{
-   display: flex;
-   justify-content: space-between;
-   margin-top: 50px;
-   
+.all-plans-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
-.plans-card .card-img{
+.plans-card .card-img {
   display: flex;
   justify-content: center;
 }
-.plans-card h3{
+.plans-card h3 {
   font-family: var(--font-family);
-font-weight: 700;
-text-align: center;
-padding: 15px 0;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0;
 
-font-size: 30px;
-color: var(--dark-01);
+  font-size: 30px;
+  color: var(--dark-01);
 }
-.plans-card p{
+.plans-card p {
   font-family: var(--font-family);
-font-weight: 500;
-font-size: 25px;
-text-align: center;
-color: var(--dark-03);
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: var(--dark-03);
 }
 /* my-plans section  */
+/* mindset section start */
+#mindset {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(./images/watch.png);
+  width: 1140px;
+  height: 300px;
+  margin: 130px auto;
+  padding: 59px;
+}
+#mindset .mindset-content h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+#mindset .mindset-content button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #f15b22;
+  width: 160px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+}
+/* mindset section end */
